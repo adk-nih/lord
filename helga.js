@@ -618,7 +618,7 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
         .catch(e=>{m.reply("error"); console.log(JSON.stringify(e, null, 2))})
       break
                                           case 'subs':
-                                          m.reply(`YT : https://youtube.com/c/HelgaZexs妥`)
+                                          m.reply(`YT : https://youtube.com/channel/UCXOWzFnJICun8db8xmeiDVw`)
                                           break
                                           case 'addpack':
          if(from != "120363041199947223@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
