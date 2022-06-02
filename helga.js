@@ -469,21 +469,21 @@ ${isSurender ? '' : ``}`.trim()
         switch(command) {
         case 'menu':
                     Anu = `
-*━━━━━━[ Zuka Beta ]━━━━━━*
+*━━━━━━[ DS Bot ]━━━━━━*
 
 Haii Kak Saya Zuka Multi Device
 Ada Yang Bisa Saya Bantu?
 
 
 ╭─「 *Bot Information* 」
-│>> Author : Helga Zexs
+│>> Author : DS HOSTING
 │>> Library : *Baileys-MD*
 │>> Prefix : ( ${prefix} )
 ╰───────────⭓
 
 「 📚 」 Hosting Menu
 
-是 ${prefix}vipdomain hostname | ip
+是 ${prefix}domain hostname | ip
 是 ${prefix}addpack user | pack
 是 ${prefix}termint「 owner only 」    
 是 ${prefix}listgc「 id grup 」
@@ -687,8 +687,8 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
             console.log(`upgrade user package to ${pack1} failed\nreason: ${JSON.stringify(e.response?.data || e.response || e, null, 2)}`);
           });
         break                                          
-        case 'vipdomain':
- if(from != "120363041199947223@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
+        case 'domain':
+ if(from != "120363041436970369@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         function subDomain1(host, ip) {
           return new Promise((resolve) => {
             let zone1 = "d3a05d3c45a7668e5ac85e4fbafd9c13";
